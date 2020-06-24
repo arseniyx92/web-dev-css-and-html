@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+button {
+  margin: 20rem;
+  padding: 2rem 4rem;
+  background: none;
+  border: 0.3rem solid #17d8c8;
+  color: #17d8c8;
+  font-size: 2.4rem;
+  border-radius: 1rem;
+}
+
+div a {
+  display: block;
+  text-align: center;
+  height: 3rem;
+  padding-top: 1rem;
+  background: #17d8c8;
+}
+
+.noob {
+  margin: 3rem;
+}
+
+.noob a {
+  display: inline-block;
+  text-align: center;
+  height: 3rem;
+  padding-top: 1rem;
+  background: #17d8c8;
+}
