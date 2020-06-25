@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 200%;
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  background: lightcoral;
+  margin: auto;
+  position: relative;
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 20%;
+  height: 20%;
+  background: lightseagreen;
+}
+
+.box2 {
+  background: magenta;
+  transform: translateX(100%);
+}
+
+.box3 {
+  background: mediumspringgreen;
+  /* position: fixed; */
+  position: sticky;
+  top: 0%;
+}
+
+.box1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  position: relative;
+  top: 100%;
+  left: 50%;
+  margin-top: 20rem;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background: mediumspringgreen;
+}
+
+button:focus {
+  background: mediumvioletred;
+}
+
+h1::after {
+  content: "me";
+}
+
+h1::before {
+  content: "LOL, ";
+}
